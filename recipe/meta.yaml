@@ -1,5 +1,5 @@
 {% set name = "pdal-parallelizer" %}
-{% set version = "2.0.1" %}
+{% set version = "2.0.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 2c7a6e1a128450f1838e1c4cd9a71048621ceda0338a222e25510299484494ab
+  sha256: 9d725feee3b73f13d65cca67a21e10597ca8483f85d3f006621c51700c12a103
 
 build:
   number: 0
@@ -41,7 +41,7 @@ test:
 
 about:
   home: https://github.com/meldig/pdal-parallelizer
-  summary: 'A commandline app to parallelize your PDAL pipelines'
+  summary: A commandline app to parallelize your PDAL pipelines
   description: |
     pdal-parallelizer is a simple and complete app to parallelize
     your PDAL pipelines. With this tool, you can process a single point cloud
