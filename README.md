@@ -1,11 +1,11 @@
-About pdal-parallelizer
-=======================
+About pdal-parallelizer-feedstock
+=================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pdal-parallelizer-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/meldig/pdal-parallelizer
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pdal-parallelizer-feedstock/blob/main/LICENSE.txt)
 
 Summary: A commandline app to parallelize your PDAL pipelines
 
