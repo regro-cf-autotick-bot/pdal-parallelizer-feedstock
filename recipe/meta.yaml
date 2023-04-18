@@ -1,5 +1,5 @@
 {% set name = "pdal-parallelizer" %}
-{% set version = "2.0.3" %}
+{% set version = "2.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 2a2790ecefde6e067c0c1af8fa77afa736529fa23b58db5ea4a0f7cecf90d1f8
+  sha256: f20a5bf7e4ff2e064348801844a21b0ea6c25145713084f355f2e083a0cd1b5b
 
 build:
   number: 0
